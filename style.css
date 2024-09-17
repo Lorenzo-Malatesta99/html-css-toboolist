@@ -35,8 +35,12 @@ main{
 }
 
 .first-section{
-    
+    padding: -2%;
     border: 1px solid;
+}
+
+.blu{
+
 }
 .true{
     color: rgb(48, 245, 84);
@@ -45,6 +49,14 @@ main{
     padding-left: 3px;
     border:2px solid rgb(48, 245, 84);
 }
+.false{
+    color: rgb(238, 121, 115);
+    border-radius: 50%;
+    padding-right: 6px;
+    padding-left: 6px;
+    border:2px solid rgb(238, 121, 115);
+}
+
 ul{
     list-style: none;
     padding-bottom: 20px ;
@@ -55,4 +67,34 @@ ul{
 }
 li{
     padding: 10px;
+}
+.tag{
+    font-size: 70%;
+    color: white;
+    border-radius: 15px;
+    padding: 6px;
+    margin-left: 3px;
+}
+
+.editorial{
+    background-color: rgb(71, 173, 241);
+}
+
+.Q1Goals{
+    background-color: rgb(156, 114, 228);
+}
+
+.Recruiting{
+    background-color: rgb(100, 192, 169);
+}
+.Mobile{
+    background-color: rgb(242, 158, 51);
+}
+
+.Website{
+    background-color: rgb(216, 99, 161);
+}
+
+.Sales{
+    background-color: hsl(69,68%,47%);
 }
