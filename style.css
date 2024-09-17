@@ -1,3 +1,4 @@
+/* reset e font*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,92 +10,111 @@
   font-weight: 600;
   font-style: normal;
 }
-
+/* header */
 .align {
   display: inline-block;
   vertical-align: middle;
-  padding: 10px;
+  padding: 15px;
 }
 h1 {
   font-size: 40px;
 }
-main{
-    padding: 30px;
-    padding-bottom: 100%;
-    background-color: rgba(236, 234, 234, 0.726);
+/* Prima sezione con i due tasti */
+
+.button {
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
-.main-layout{
-    background-color: white;
-    max-width: 75%;
-    margin:20px auto;
-    margin-bottom: -19px;
-    border: 1px;
-    border-radius: 8px;
-    padding: 3%;
+.gray {
+  color: gray;
+  border: 1px solid gray;
+  background-color: white;
+}
+/* Seconda sezione */
+main {
+  padding: 30px;
+  padding-bottom: 10%;
+  background-color: rgba(236, 234, 234, 0.726);
 }
 
-.first-section{
-    padding: -2%;
-    border: 1px solid;
+.main-layout {
+  background-color: white;
+  max-width: 70%;
+  margin: 20px auto;
+  margin-bottom: -18px;
+  border: 1px;
+  border-radius: 8px;
+  padding: 3%;
 }
 
-.blu{
-
-}
-.true{
-    color: rgb(48, 245, 84);
-    border-radius: 50%;
-    padding-right: 3px;
-    padding-left: 3px;
-    border:2px solid rgb(48, 245, 84);
-}
-.false{
-    color: rgb(238, 121, 115);
-    border-radius: 50%;
-    padding-right: 6px;
-    padding-left: 6px;
-    border:2px solid rgb(238, 121, 115);
+.up {
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-ul{
-    list-style: none;
-    padding-bottom: 20px ;
+.menu {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 3px;
+  font-size: 25px;
+  padding-left: 10px;
 }
-.menu{
-    margin: 3px;
-    font-size: 20px;
-}
-li{
-    padding: 10px;
-}
-.tag{
-    font-size: 70%;
-    color: white;
-    border-radius: 15px;
-    padding: 6px;
-    margin-left: 3px;
+/* icon true or false */
+.true {
+  color: rgb(48, 245, 153);
+  border-radius: 50%;
+  padding-right: 3px;
+  padding-left: 3px;
+  border: 3px solid rgb(48, 245, 153);
 }
 
-.editorial{
-    background-color: rgb(71, 173, 241);
+.false {
+  color: rgb(238, 121, 115);
+  border-radius: 50%;
+  padding-right: 6px;
+  padding-left: 6px;
+  border: 3px solid rgb(238, 121, 115);
+}
+/* liste parametri */
+ul {
+  list-style: none;
+  padding-bottom: 20px;
 }
 
-.Q1Goals{
-    background-color: rgb(156, 114, 228);
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding: 15px;
+}
+.tag {
+  font-size: 70%;
+  color: white;
+  border-radius: 15px;
+  padding: 6px;
+  margin-left: 3px;
+}
+/* colori tags */
+.editorial {
+  background-color: rgb(71, 173, 241);
 }
 
-.Recruiting{
-    background-color: rgb(100, 192, 169);
-}
-.Mobile{
-    background-color: rgb(242, 158, 51);
+.Q1Goals {
+  background-color: rgb(156, 114, 228);
 }
 
-.Website{
-    background-color: rgb(216, 99, 161);
+.Recruiting {
+  background-color: rgb(100, 192, 169);
+}
+.Mobile {
+  background-color: rgb(242, 158, 51);
 }
 
-.Sales{
-    background-color: hsl(69,68%,47%);
+.Website {
+  background-color: rgb(216, 99, 161);
+}
+
+.Sales {
+  background-color: hsl(69, 68%, 47%);
 }

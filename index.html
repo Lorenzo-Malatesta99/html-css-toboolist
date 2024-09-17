@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toboolist</title>
+    <!-- collegamento css -->
     <link rel="stylesheet" href="./style.css" />
+    <!-- google fonts per titolo -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,37 +15,65 @@
     />
   </head>
   <body class="poppins">
+    <!-- Titolo, logo e font -->
     <header>
       <img class="align" src="./img/Logo.png" alt="Logo" />
       <h1 class="align">Toboolist</h1>
     </header>
     <main>
-        <div class="main-layout">
-            <section class="first-section">
-                <button class="blu button">Add Task</button>
-                <button class="gray button">Add Section</button>
-            </section>
-        </div>
-        <div class="main-layout">
-            <ul>
-                <strong class="menu">&#9660; New task</strong>
-                <li><span class="true">&#128504;</span> Quarterly Newslatter <span>Editorial</span></li>
-            </ul>
-            <ul>
-                <strong class="menu">&#9660; Today</strong>
-                <li><span class="true">&#128504;</span> Recruiting blog post <span class="tag editorial">Editorial</span></li>
-                <li><span class="true">&#128504;</span> Mobile app launch <span class="tag Q1Goals">Q1Goals</span></li>
-                <li><span class="false">&#65794;</span> Interview John H. <span class="tag Recruiting">Recruiting</span></li>
-                <li><span class="true">&#128504;</span> Summit update to mobile store fronts <span>Mobile</span></li>
-            </ul>
-            <ul><strong class="menu">&#9660; Upcoming</strong>
-                <li><span class="false">&#65794;</span>  Schedule meeting with Alex</li>
-                <li><span class="true">&#128504;</span> Homepage refresh <span class="tag Website">Website</span></li>
-                <li><span class="true">&#128504;</span> Onboard new Sales team members <span class="tag Sales">Sales</span></li>
-                <li><span class="true">&#128504;</span> Review editorial calendar <span class="tag editorial">Editorial</span></li>
-            </ul>
-        </div>
-        
+      <!-- Prima sezione con i due tast -->
+      <section class="main-layout up">
+        <button class="editorial button">Add Task</button>
+        <button class="gray button">Add Section</button>
+      </section>
+      <!-- Seconda sezione, con tutti dati -->
+      <section class="main-layout">
+        <!-- Serie di liste non ordinate -->
+        <ul>
+          <strong class="menu">&#9660; New task</strong>
+          <li>
+            <span class="true">&#128504;</span> Quarterly Newslatter
+            <span>Editorial</span>
+          </li>
+        </ul>
+        <ul>
+          <strong class="menu">&#9660; Today</strong>
+          <li>
+            <span class="true">&#128504;</span> Recruiting blog post
+            <span class="tag editorial">Editorial</span>
+          </li>
+          <li>
+            <span class="true">&#128504;</span> Mobile app launch
+            <span class="tag Q1Goals">Q1Goals</span>
+          </li>
+          <li>
+            <span class="false">&#65794;</span> Interview John H.
+            <span class="tag Recruiting">Recruiting</span>
+          </li>
+          <li>
+            <span class="true">&#128504;</span> Summit update to mobile store
+            fronts <span>Mobile</span>
+          </li>
+        </ul>
+        <ul>
+          <strong class="menu">&#9660; Upcoming</strong>
+          <li>
+            <span class="false">&#65794;</span> Schedule meeting with Alex
+          </li>
+          <li>
+            <span class="true">&#128504;</span> Homepage refresh
+            <span class="tag Website">Website</span>
+          </li>
+          <li>
+            <span class="true">&#128504;</span> Onboard new Sales team members
+            <span class="tag Sales">Sales</span>
+          </li>
+          <li>
+            <span class="true">&#128504;</span> Review editorial calendar
+            <span class="tag editorial">Editorial</span>
+          </li>
+        </ul>
+      </section>
     </main>
   </body>
 </html>
